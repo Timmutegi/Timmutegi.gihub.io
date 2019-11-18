@@ -180,10 +180,10 @@ ul {
         margin: 0;
         padding: 0;
     }
-    body {
+    /* body {
         max-width: 100%;
         overflow-x: hidden;
-    }
+    } */
     .skills {
         height: 1700px;
     }
@@ -199,7 +199,7 @@ ul {
     }
     .projects {
         height: 1600px;
-        width: 100%;
+        width: 90%;
     }
     .projects .column {
         margin-bottom: 30px;
