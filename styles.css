@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: #F2F4FF;
     font-family: 'Muli', sans-serif;
 }
@@ -6,7 +8,6 @@ body {
 .header {
     background-color: #FFFFFF;
     height: 200px;
-    width: 100%;
     text-align: center;
 }
 
@@ -175,6 +176,10 @@ ul {
 }
 
 @media screen and (max-width: 600px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     .skills {
         height: 1700px;
     }
