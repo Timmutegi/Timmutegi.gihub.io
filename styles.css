@@ -9,9 +9,8 @@ body {
     text-align: center;
 }
 
-.sub-header {
-    margin-top: 30px;
-    margin-bottom: 30px;
+.header h2 {
+    mrgin-bottom: 30px;
 }
 
 h2 {
