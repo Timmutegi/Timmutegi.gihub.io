@@ -1,15 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #F2F4FF;
     font-family: 'Muli', sans-serif;
 }
 
-.head {
+.intro {
     background-color: #FFFFFF;
-    height: 300px;
-    text-align: center;
+    height: 250px;
 }
 
-.head h2 {
+.intro .content {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.intro h2 {
     margin-bottom: 30px;
 }
 
@@ -30,7 +40,7 @@ h4 {
 }
 
 .illustration {
-    padding-top: 50px;
+    padding-top: 20px;
     height: 500px;
     text-align: center;
     background-color: #FFFFFF;
@@ -112,6 +122,7 @@ ul {
 .projects .column {
     float: left;
     padding: 0 20px;
+    margin-bottom: 30px;
 }
 
 #lower-row {
@@ -179,10 +190,7 @@ ul {
     }
     body {
         max-width: 100%;
-        /* overflow-x: hidden; */
-    }
-    .head {
-        width: 85%;
+        overflow-x: hidden;
     }
     .skills {
         height: 1700px;
@@ -202,13 +210,16 @@ ul {
         width: 90%;
     }
     .projects .column {
-        margin-bottom: 30px;
+        padding: 0;
+    }
+    .projects .card {
+        margin: 0 auto;
     }
     #lower-row {
         margin-top: 0px;
     }
-    .projects .card {
-        width: 380px;
+    .projects .column {
+        width: 90%;
     }
     .illustration {
         height: 400px;
@@ -221,6 +232,7 @@ ul {
     }
     h2 {
         font-size: 30px;
+        padding-top: 80px;
     }
     h4,
     h5 {
