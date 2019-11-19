@@ -181,6 +181,9 @@ ul {
         max-width: 100%;
         /* overflow-x: hidden; */
     }
+    .header {
+        width: 85%;
+    }
     .skills {
         height: 1700px;
     }
