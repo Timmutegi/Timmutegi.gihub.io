@@ -153,6 +153,7 @@ ul {
 
 #lower-row {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .projects .card {
@@ -308,7 +309,7 @@ ul {
         align-items: center;
     }
     .projects {
-        height: 1600px;
+        height: 1300px;
         width: 90%;
     }
     .projects .column {
