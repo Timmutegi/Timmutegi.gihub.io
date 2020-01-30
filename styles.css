@@ -8,9 +8,27 @@ body {
     font-family: 'Muli', sans-serif;
 }
 
+.navbar {
+    /* height: 50px; */
+    background-color: white;
+}
+
 .intro {
     background-color: #FFFFFF;
     height: 250px;
+}
+
+.content a {
+    border-radius: 0px;
+    color: white;
+    background-color: #007991;
+    border: 0px;
+    font-weight: bold;
+}
+
+.content a:hover {
+    background-color: #007991;
+    color: black;
 }
 
 .intro .content {
@@ -24,7 +42,7 @@ body {
 }
 
 h2 {
-    padding-top: 126px;
+    padding-top: 80px;
     font-size: 45px;
     font-weight: 900;
 }
@@ -41,7 +59,7 @@ h4 {
 
 .illustration {
     padding-top: 20px;
-    height: 500px;
+    height: 400px;
     text-align: center;
     background-color: #FFFFFF;
 }
@@ -50,6 +68,7 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
     background-color: #4E598C;
     width: 100%;
     height: 481px;
@@ -110,9 +129,10 @@ ul {
 
 .projects {
     width: 90%;
-    height: 600px;
+    height: 650px;
     margin: 100px auto 0px auto;
     text-align: center;
+    /* background-color: white; */
 }
 
 .projects .row {
@@ -136,8 +156,44 @@ ul {
 }
 
 .projects .card {
-    width: 300px;
-    height: 207px;
+    position: relative;
+    width: 250px;
+    height: 150px;
+}
+
+.projects .card img {
+    width: 250px;
+    height: 150px;
+}
+
+.image-description {
+    position: absolute;
+    /* visibility: hidden; */
+    opacity: 0;
+    width: 250px;
+    height: 150px;
+    /* top: 40px; */
+    background-color: #007991;
+    transition: opacity 1s ease;
+}
+
+.projects .card:hover .image-description {
+    /* visibility: visible; */
+    opacity: 1;
+}
+
+.description {
+    color: white;
+    margin-top: 20px;
+}
+
+.projects .btn-light {
+    background-color: #007991;
+    color: white;
+    border: 2px solid white;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 
 .testimonial {
@@ -147,8 +203,16 @@ ul {
     margin: 0 auto;
 }
 
+.testimonial .avatar img {
+    margin-top: 40px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
 .testimonial .content {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 30px;
 }
 
@@ -195,24 +259,29 @@ ul {
 
 .footer {
     width: 100%;
-    height: 500px;
+    height: 200px;
     background-color: #4E598C;
 }
 
 .social {
-    padding-top: 250px;
-    height: 200px;
+    padding-top: 50px;
+    height: 150px;
     color: white;
     text-align: center;
 }
 
+.social a {
+    color: white;
+}
+
 .social i {
     margin-right: 40px;
+    cursor: pointer;
 }
 
 .rights {
     color: white;
-    margin-top: 150px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -281,7 +350,7 @@ ul {
     h5 {
         font-size: 15px;
     }
-    img {
+    .illustration img {
         height: 300px;
         width: 350px;
     }
