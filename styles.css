@@ -35,11 +35,6 @@ body {
     font-weight: bold;
 }
 
-.content a:hover {
-    background-color: #E2DADB;
-    color: #4E598C;
-}
-
 .intro .content {
     width: 90%;
     text-align: center;
